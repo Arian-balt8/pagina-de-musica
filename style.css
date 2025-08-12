@@ -1,0 +1,287 @@
+
+/* comentario */
+/* el acterisco pone todo de un color en forma mundial de la pagina*/
+*{
+    /*color: green;*/
+}
+
+/*selector de tipo es poner directamente un codigo de pagina html para que cambie el style*/
+ol{
+    /*color: red;*/
+}
+/*si lo ponemos de esta forma hacemos que todos los h1,h2,h3 sean de un estilo igual
+h1,
+h2,
+h3
+*/
+
+/**/
+
+h2{
+    /*tamano de la letra*/
+    font-size: 60px;
+    /*tipo de letra*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+
+img{
+    /* tama;o de las imagenes*/
+    /*significa ancho*/
+    width: 400px; 
+
+    /*ancho del borde*/
+    border-width: 15px;
+    /*color del borde*/
+    border-color: blue;
+    /*tipo de borde, solid es borde solido*/
+    border-style: outset;
+    /*hace haya bordes redondeados*/
+    border-radius: 60px;
+
+
+    /*Padding → espacio dentro del borde (entre contenido y borde)*/
+    padding: 20px;
+    /*parte superior*/
+    padding-top: 15px;
+    /*parte derecha*/
+    padding-right: 15px;
+    /*parte izquierda*/
+    padding-left: 15px;
+    /*parte inferior*/
+    padding-bottom: 15px;
+    /*tambien se puede hacer en ves de 4 linea en 1... van como reloj a la derecha.*/
+    /*padding: 25px 25px 50px 25px;*/
+
+    /*el margin es lo que va despues ddel borde*/
+    margin: 25px 25px 50px 25px;
+
+
+
+
+
+   /*class en html y . en style*/ 
+}
+.class-nirvana {
+    text-align: center;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 0, 0);
+
+    border-color: black;
+    border-style: groove;
+    border-width: 20px;
+    border-radius: 50px;
+    
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;
+}
+
+.class-nirvana2 {
+    text-decoration: none;
+    color: rgb(162, 226, 43);
+}
+
+
+
+
+/* id en html y # en style*/
+#twenty-id {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 136, 0);
+
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 60px; 
+
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    
+}
+#twenty-id2 {
+    text-decoration: none;
+    color: brown;
+
+}
+
+.class-joji {
+    text-align: center;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(165, 42, 155);
+
+    border-color: rgb(77, 165, 42);
+    border-style: dashed;
+    border-width: 30px;
+
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;
+
+}
+
+.class-joji2 {
+    text-decoration:none;
+    color: rgb(201, 204, 102);
+    
+}
+.link-solitario{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+#iddd-peep {
+    text-align: center;
+    background-color: #1B1B1B; /* Fondo oscuro */
+    border: 4px solid #FF9EC4; /* Marco rosa pastel */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+    color: #C9A0FF; /* Texto lila */
+    font-family: Arial, sans-serif;
+}
+
+#iddd-peep h3 {
+    color: #FF9EC4; /* Título rosa pastel */
+    text-align: center;
+}
+
+#iddd-peep img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 3px solid #C9A0FF; /* Marco lila para la imagen */
+}
+
+#iddd-peep p {
+    color: #C9A0FF;
+    line-height: 1.5;
+}
+
+#iddd-peep ul {
+    list-style: none;
+    padding: 0;
+}
+
+#iddd-peep li {
+    margin: 8px 0;
+}
+
+#iddd-peep label {
+    margin-left: 10px;
+    color: #FF9EC4; /* Rosa pastel en etiquetas */
+}
+
+#iddd-peep a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #FF9EC4; /* Fondo rosa */
+    color: #1B1B1B; /* Texto oscuro */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#iddd-peep a:hover {
+    background-color: #C9A0FF; /* Cambia a lila al pasar el mouse */
+}
+
+
+
+.sub-urban {
+    text-align: center;
+    background-color: rgb(147, 28, 28);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+
+    border: 10px solid black;
+    border-radius: 50px;
+
+    padding: 30px;
+    margin: 30px auto;}
+
+
+.sub-urban h3{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.sub-urban img{
+    border: 20px solid red;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20pxauto;
+}
+
+.sub-urban ul{
+    list-style-position: inside;
+
+}
+
+.sub-urban label{
+    color: #FF9EC4;
+    margin-left: 10px;
+}
+.sub-urban a{
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+    
+        ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*!important*/
+/*es para poner una etiqueta inportante y que el cmabio despues se haga si se repite*/
+
+/* todos estos tipos de stylo en coor esta en color picker*/
+
+/*hexadecimal code de colores en style*/
+/* puede ser entre 0-9 y A-F, en los 6 ceros puede hacer abecedario o numeros de 0-9 */
+/* 
+ # 00   00   00
+  rojo-verde-azul
+*/
+/* tambien se puede hacer de 3 como 00 ff 00 a 0f0  si los valores de 2 en 2 son iguales*/
+
+
+/*rgb es red-green-blue*/
+/*es otra forma de estylo de color aparte de exadecimal
+
+/*rgba se aumenta el a que es alpha y es para volver un color de forma transparente*/
+
+
+
+
+
+/*es para poner directo un estylo desde el etributo*/
+/*a[href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://open.spotify.com/intl-es/artist/6olE6TJLqED3rqDCT0FyPh&ved=2ahUKEwi50fP4h_yOAxVKgpUCHcRoCPsQFnoECAoQAQ&usg=AOvVaw0g_xvDy43Akl2HCNw_8GQD"]{
+    color: aqua;
+    text-decoration: none;
+}*/
+
+
+
