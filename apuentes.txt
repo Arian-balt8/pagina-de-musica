@@ -1,0 +1,6 @@
+git status -> sirve para ver cambios realisados en el repositorio local | git diff -> muestra las diferencias del archivo local con las del repositol
+git pull -> sirve para descargar los cambios realizados del repositorio
+git add -> sirve para adicionar archivos a un commit(git add nombre_archivo.php)|(git add .) // "." sirve para adicionar todos los archivos con cambios realizados
+git commit -m "mensaje de commit" -> sirve para agregar una descripcion al commit
+git push -> sirve para subir los camcios adicionados en el git add (git push)|(git push origin "nombre del branch" )
+amongus
